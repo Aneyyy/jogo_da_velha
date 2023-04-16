@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+body{
+    height:100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(45deg,#043d53,#6e0138 );
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1, h2{
+    text-align: center;
+    color: white;
+}
+
+hr{
+    font-weight: bold;
+    height: 3px;
+    background: black;
+    margin-bottom: 10px;
+}
+
+.game{
+ 
+    height:250px;
+    display:grid;
+    grid-auto-columns:1fr;
+    grid-auto-rows:1fr;
+    overflow:hidden;
+}
+
+.game div{
+    outline:2px solid #ffffff;
+   
+}
+
+.game div:last-child {
+    grid-area:3/3;
+  }
