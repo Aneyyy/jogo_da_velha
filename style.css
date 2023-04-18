@@ -26,6 +26,8 @@ h1, h2{
     color: white;
 }
 
+
+
 hr{
     font-weight: bold;
     height: 3px;
@@ -45,6 +47,6 @@ hr{
     cursor: pointer;
     font-size: 50px;
     background: none;
-   
+    color: white;
 }
 
